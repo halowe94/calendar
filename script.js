@@ -7,3 +7,6 @@
 //when user clicks save button
     //the input stays in the box
     //the background color of the row changes
+
+let content = document.getElementsByClassName("inputArea")
+    content.contentEditable = "true";
