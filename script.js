@@ -8,8 +8,14 @@
     //the input stays in the box
     //the background color of the row changes
 
+    //Set Date
+    // let moment = $("#date");
+    // moment.textContent = moment().format('dddd[,] MMMM Do YYYY');
 
 
+
+
+    //create function to store item in local storage
     $(".saveBtn").click( function() {
         let inputText = $(this).parent().siblings(".inputTag").val();
         let inputTime = $(this).parent().siblings(".inputTag").attr("id")
@@ -18,37 +24,16 @@
 
     })
 
-    //   //this is whatever is clicked
-    // //localStorage.getItem
-    function retrieveItems(){
-        getNine();
-    }
-         //localStorage.getItem($("#9am").val());
-    window.localStorage.getItem('#9am');
-          $('#9am').text= function() {
-              localStorage.key("9am").val()
-          }
+    //retieve from localStoraage for each key
+    $('#9am').val(localStorage.getItem('9am'));
+    $('#10am').val(localStorage.getItem('10am'));
+    $('#11am').val(localStorage.getItem('11am'));
+    $('#12pm').val(localStorage.getItem('12pm'));
+    $('#1pm').val(localStorage.getItem('1pm'));
+    $('#2pm').val(localStorage.getItem('2pm'));
+    $('#3pm').val(localStorage.getItem('3pm'));
+    $('#4pm').val(localStorage.getItem('4pm'));
+    $('#5pm').val(localStorage.getItem('5pm'));
 
+            
         
-    let getTen = window.localStorage.getItem('#10am');
-    let getEleven = window.localStorage.getItem('#11am');
-    let getTwelve = window.localStorage.getItem('#12pm');
-    let getOne = window.localStorage.getItem('#1pm');
-    let getTwo = window.localStorage.getItem('#2pm');
-    let getThree = window.localStorage.getItem('#3pm');
-    let getFour = window.localStorage.getItem('#4pm');
-    let getFive = window.localStorage.getItem('#5pm');
-
-
-
-    //     localStorage.getItem(get10).val();
-    //     localStorage.getItem(get11).val();
-    //     localStorage.getItem(get12).val();
-    //     localStorage.getItem(get1).val();
-    //     localStorage.getItem(get2).val();
-    //     localStorage.getItem(get3).val();
-    //     localStorage.getItem(get4).val();
-    //     localStorage.getItem(get5).val();
-    //     }
-    
-    //     retrieveItems().style.display = "block"; 

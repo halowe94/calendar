@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scheduler</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" src="style.css">
     <script src="https://kit.fontawesome.com/d1a643a902.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" src="style.css">
+
 </head>
 <body>
     <!--Main Row-->
@@ -16,11 +17,11 @@
 
             <!--header-->
             <div class="row m-5">
-                <h1 class= "col-11">Work Day Schedule</h1>
+                <h1 class= "col-11 mx-auto">Work Day Schedule</h1>
                 <br>
-                <h4 class="col-11">sjkskjfdkjskljd</h4>
+                <h4 class="col-11 mx-auto">A simple calendar app for scheduling your workday</h4>
                 <br>
-                <h4 class="col-11">sjlskjkjsklzjfk</h4>
+                <h4 class="col-11" id="date"></h4>
             </div>
             <!--Divider-->
             <div class="dropdown-divider border-dark"></div>
@@ -33,14 +34,14 @@
                 <!--Empty div-->
                 <div class="class col-lg-1"></div>
                 <!--9am tab-->
-                <div class="border border-dark col col-lg-1 p-4 rounded-left">
+                <div class="border border-dark col col-lg-1 p-4 rounded-left-0 bg-warning">
                     9AM
                 </div>
                 <!--Main input-->
-                <input class="border border-dark col col-lg-8 p-4 field__input a-field__input changeColor inputTag" id="9am" placeholder="Click to add"/> 
+                <input class="border border-dark col col-lg-8 p-4 field__input a-field__input bg-light inputTag" id="9am" placeholder="Click to add"/> 
             
                 <!--Save tab-->
-                <div class="border border-dark col col-lg-1 p-4 rounded-right">
+                <div class="border border-dark col col-lg-1 p-4 rounded-right bg-success">
                     <i class="far fa-save saveBtn"></i>
                 </div>
                 <!--Empty div-->
@@ -53,14 +54,14 @@
                 <!--Empty div-->
                 <div class="class col-lg-1"></div>
                 <!--10am tab-->
-                <div class="border border-dark col col-lg-1 p-4 border-left-0">
+                <div class="border border-dark col col-lg-1 p-4 border-left-0 bg-warning">
                     10AM
                 </div>
                 <!--Main input-->
-                <input class="border border-dark col col-lg-8 p-4 field__input a-field__input changeColor inputTag" id="10am" placeholder="Click to add"/>
+                <input class="border border-dark col col-lg-8 p-4 field__input a-field__input bg-light inputTag" id="10am" placeholder="Click to add"/>
             
                 <!--Save tab-->
-                <div class="border border-dark col col-lg-1 p-4 rounded-right">
+                <div class="border border-dark col col-lg-1 p-4 rounded-right bg-success">
                     <i class="far fa-save saveBtn"></i>
                 </div>
 
@@ -74,14 +75,14 @@
                 <!--Empty div-->
                 <div class="class col-lg-1"></div>
                 <!--11am-->
-                <div class="border border-dark col col-lg-1 p-4 border-left-0">
+                <div class="border border-dark col col-lg-1 p-4 border-left-0 bg-warning">
                     11AM
                 </div>
                 <!--Main input-->
-                <input class="border border-dark col col-lg-8 p-4 field__input a-field__input changeColor inputTag" id="11am" placeholder="Click to add"/>
+                <input class="border border-dark col col-lg-8 p-4 field__input a-field__input bg-light inputTag" id="11am" placeholder="Click to add"/>
     
                 <!--Save tab-->
-                <div class="border border-dark col col-lg-1 p-4 rounded-right">
+                <div class="border border-dark col col-lg-1 p-4 rounded-right bg-success">
                     <i class="far fa-save saveBtn"></i>
                 </div>
                 <!--Empty div-->
@@ -94,14 +95,14 @@
                 <!--Empty div-->
                 <div class="class col-lg-1"></div>
                 <!--12pm-->
-                <div class="border border-dark col col-lg-1 p-4 border-left-0">
+                <div class="border border-dark col col-lg-1 p-4 border-left-0 bg-warning">
                     12PM
                 </div>
                 <!--Main input-->
-                <input class="border border-dark col col-lg-8 p-4 field__input a-field__input changeColor inputTag" id="12pm" placeholder="Click to add"/>
+                <input class="border border-dark col col-lg-8 p-4 field__input a-field__input bg-light inputTag" id="12pm" placeholder="Click to add"/>
     
                 <!--Save tab-->
-                <div class="border border-dark col col-lg-1 p-4 rounded-right">
+                <div class="border border-dark col col-lg-1 p-4 rounded-right bg-success">
                     <i class="far fa-save saveBtn"></i>
                 </div>
                 <!--Empty div-->
@@ -114,14 +115,14 @@
                 <!--Empty div-->
                 <div class="class col-lg-1"></div>
                 <!--1pm-->
-                <div class="border border-dark col col-lg-1 p-4 border-left-0">
+                <div class="border border-dark col col-lg-1 p-4 border-left-0 bg-warning">
                     1PM
                 </div>
                 <!--Main input-->
-                <input class="border border-dark col col-lg-8 p-4 field__input a-field__input changeColor inputTag" id="1pm" placeholder="Click to add"/>
+                <input class="border border-dark col col-lg-8 p-4 field__input a-field__input bg-light inputTag" id="1pm" placeholder="Click to add"/>
     
                 <!--Save tab-->
-                <div class="border border-dark col col-lg-1 p-4 rounded-right">
+                <div class="border border-dark col col-lg-1 p-4 rounded-right bg-success">
                     <i class="far fa-save saveBtn"></i>
                 </div>
                 <!--Empty div-->
@@ -134,14 +135,14 @@
                 <!--Empty div-->
                 <div class="class col-lg-1"></div>
                 <!--2pm-->
-                <div class="border border-dark col col-lg-1 p-4 border-left-0">
+                <div class="border border-dark col col-lg-1 p-4 border-left-0 bg-warning">
                     2PM
                 </div>
                 <!--Main input-->
-                <input class="border border-dark col col-lg-8 p-4 field__input a-field__input changeColor inputTag" id="2pm" placeholder="Click to add"/>
+                <input class="border border-dark col col-lg-8 p-4 field__input a-field__input bg-light inputTag" id="2pm" placeholder="Click to add"/>
     
                 <!--Save tab-->
-                <div class="border border-dark col col-lg-1 p-4 rounded-right">
+                <div class="border border-dark col col-lg-1 p-4 rounded-right bg-success">
                     <i class="far fa-save saveBtn"></i>
                 </div>
                 <!--Empty div-->
@@ -154,14 +155,14 @@
                 <!--Empty div-->
                 <div class="class col-lg-1"></div>
                 <!--3pm-->
-                <div class="border border-dark col col-lg-1 p-4 border-left-0">
+                <div class="border border-dark col col-lg-1 p-4 border-left-0 bg-warning">
                     3PM
                 </div>
                 <!--Main input-->
-                <input class="border border-dark col col-lg-8 p-4 field__input a-field__input changeColor inputTag" id="3pm" placeholder="Click to add"/>
+                <input class="border border-dark col col-lg-8 p-4 field__input a-field__input bg-light inputTag" id="3pm" placeholder="Click to add"/>
     
                 <!--Save tab-->
-                <div class="border border-dark col col-lg-1 p-4 rounded-right">
+                <div class="border border-dark col col-lg-1 p-4 rounded-right bg-success">
                     <i class="far fa-save saveBtn"></i>
                 </div>
                 <!--Empty div-->
@@ -174,14 +175,14 @@
                 <!--Empty div-->
                 <div class="class col-lg-1"></div>
                 <!--4pm-->
-                <div class="border border-dark col col-lg-1 p-4 border-left-0">
+                <div class="border border-dark col col-lg-1 p-4 border-left-0 bg-warning">
                     4PM
                 </div>
                 <!--Main input-->
-                <input class="border border-dark col col-lg-8 p-4 field__input a-field__input changeColor inputTag" id="4pm" placeholder="Click to add"/>
+                <input class="border border-dark col col-lg-8 p-4 field__input a-field__input bg-light inputTag" id="4pm" placeholder="Click to add"/>
     
                 <!--Save tab-->
-                <div class="border border-dark col col-lg-1 p-4 rounded-right">
+                <div class="border border-dark col col-lg-1 p-4 rounded-right bg-success">
                     <i class="far fa-save saveBtn"></i>
                 </div>
                 <!--Empty div-->
@@ -194,14 +195,14 @@
                 <!--Empty div-->
                 <div class="class col-lg-1"></div>
                 <!--5pm-->
-                <div class="border border-dark col col-lg-1 p-4 rounded-left">
+                <div class="border border-dark col col-lg-1 p-4 rounded-left-0 bg-warning">
                     5PM
                 </div>
                 <!--Main input-->
-                <input class="border border-dark col col-lg-8 p-4 field__input a-field__input changeColor inputTag" id="5pm" placeholder="Click to add"/>
+                <input class="border border-dark col col-lg-8 p-4 field__input a-field__input bg-light inputTag" id="5pm" placeholder="Click to add"/>
     
                 <!--Save tab-->
-                <div class="border border-dark col col-lg-1 p-4 rounded-right">
+                <div class="border border-dark col col-lg-1 p-4 rounded-right bg-success">
                     <i class="far fa-save saveBtn"></i>
                 </div>
                 <!--Empty div-->
