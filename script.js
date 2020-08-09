@@ -9,10 +9,8 @@
     //the background color of the row changes
 
     //Set Date
-    // let moment = $("#date");
-    // moment.textContent = moment().format('dddd[,] MMMM Do YYYY');
-
-
+    let todaysDate = moment().format('YYYY-MM-DD');
+    let date = $("#date").text(todaysDate);
 
 
     //create function to store item in local storage

@@ -1,0 +1,22 @@
+{
+  "name": "calendar",
+  "version": "1.0.0",
+  "description": "a simple calendar application that allows the user to save events for each hour of the day.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halowe94/calendar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/halowe94/calendar/issues"
+  },
+  "homepage": "https://github.com/halowe94/calendar#readme",
+  "dependencies": {
+    "moment": "^2.27.0"
+  }
+}
